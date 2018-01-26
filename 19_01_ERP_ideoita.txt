@@ -1,0 +1,11 @@
+Muodostimme projektiryhmän ja valitsimme aiheeksi avoimen lähdekoodin ERP järjestelmien tutkimisen ja sitä kautta löytää potentiaalisin korvaava järjestelmä raskaalle ja kalliille SAP järjestelmälle.
+
+Avoimen lähdekoodin ERP järjestelmiä joihin tutustuimme:
+Dolibarr https://www.dolibarr.org/
+Mautic https://www.mautic.org/
+Idempiere http://www.idempiere.org/
+Tryton http://www.tryton.org/
+ERPNext https://erpnext.com/
+Odoo https://www.odoo.com/
+Nuclos http://www.nuclos.de/
+EspoCRM https://www.espocrm.com/

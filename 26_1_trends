@@ -1,4 +1,0 @@
-  <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1294_RC01/embed_loader.js"></script>
-  <script type="text/javascript">
-    trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"dolibarr","geo":"","time":"2004-01-01 2018-01-26"},{"keyword":"erpnext","geo":"","time":"2004-01-01 2018-01-26"},{"keyword":"idempiere","geo":"","time":"2004-01-01 2018-01-26"},{"keyword":"tryton","geo":"","time":"2004-01-01 2018-01-26"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=dolibarr,erpnext,idempiere,tryton","guestPath":"https://trends.google.fi:443/trends/embed/"});
-  </script>

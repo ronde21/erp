@@ -1,4 +1,4 @@
-Tein skriptin, joka lisää lisää Odoon repoon ja asentaa sen.
+Tein skriptin, joka lisää Odoon repoon ja asentaa sen.
 https://github.com/ronde21/erp/blob/master/odooinstallation.sh
 
 Yritin saada vagrant virtuualikoneelle julkista IP-osoitetta. Jotta pystyy

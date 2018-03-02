@@ -14,4 +14,4 @@ https://opensourceerp2018.wordpress.com/2018/03/02/odoo-moduulit/
 
 Tietokannan muokkaus: Lisäsimme Odoolle asiakkaita, tilaisuuksia sekä tuotteita testauksiin varten. Tutustuin hieman myös postgresql tietokantaan.
 
-Kotisivun luonti: Loimme Konstan kanssa kotiivut meidän projektia varten hyödyntäen odoon nettisivu editoria.
+Kotisivun luonti: Loimme Konstan kanssa kotisivut meidän projektia varten hyödyntäen odoon nettisivu editoria.

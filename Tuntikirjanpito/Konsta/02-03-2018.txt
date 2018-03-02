@@ -18,6 +18,8 @@ Tästä syystä päätimme asentaa uudestaan palvelimen ja asennus onnistui ilma
 
 Postauksessa korjattiin kirjoitusvirheitä, sekä poistettiin vanhat vaiheet joita ei tullut tällä kertaan vastaan. Asennus ohjetta on paljon helpompi seurata tämän päivityksen jälkeen.
 
+Kotisivun luonti: Loimme Emren kanssa kotisivut meidän projektia varten hyödyntäen Odoon nettisivu editoria.
+
 Lopputulos:
 https://opensourceerp2018.wordpress.com/2018/02/16/palvelimen-konfigurointi/
 

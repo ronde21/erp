@@ -1,1 +1,14 @@
+Selvitin mahdollisia Odoo asiantuntijoita joihin otin yhteyttä selvittääkseni vastauksia laatimiimme kysymyksiin. Avoin.Systems:iltä, Myyntijohtaja Tuomo Aura vastasi jo yhteydenottoon, mutta sanoi palaavansa asiaan ensiviikon alussa. 
 
+RockIT Oy:ltä, Toimitusjohtaja Mikko Salmela ei toistaiseksi ole vastannut vielä mitään.
+
+Tässä vielä muutamia kysymyksiä joihin toivomme saavamme vastauksia.
+
+⦁	Kuinka kauan olette työskennelleet Odoon parissa?
+⦁	Miksi valitsitte juuri Odoon?
+⦁	Mitkä ovat Odoon parhaat ominaisuudet?
+⦁	Kuinka Odoon lokalisointi tällä hetkellä onnistuu Suomeen?
+⦁	Miten Odoo kilpailee suljetun lähdekoodin järjestelmien kanssa teidän mielestä? Esim. SAP ja Microsoft Dynamics 365?
+⦁	Mitkä olisivat ensimmäiset asiat/moduulit joita StarUp- yritys voisi toimintansa tukena tarvita?
+
+Tutustuin tarkemmin Odoon varastonhallintaan, nettikauppaan ja  myynnin hallinta moduuleihin. Loin testimielessä tuotteen jota myymme, tein ostotilauksen ja laskun.

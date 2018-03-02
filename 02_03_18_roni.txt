@@ -1,0 +1,29 @@
+Tein skriptin, joka lisää lisää Odoon repoon ja asentaa sen.
+https://github.com/ronde21/erp/blob/master/odooinstallation.sh
+
+Yritin saada vagrant virtuualikoneelle julkista IP-osoitetta. Jotta pystyy
+varmistamaan, että Odoo käyttöliittymän saisi näkyviin.
+Lisäsin Vagrantfileen:
+config.vm.network "public_network"
+
+Muokkasin hostin ja virtualboxin hakemistossa
+cd /etc/sudoers.d/
+tiedostoon
+
+xubuntu  ALL=(ALL) NOPASSWD: ALL
+vagrant ALL=(ALL) NOPASSWD:ALL
+Defaults:vagrant !requiretty
+
+Sain kuitenkin virheilmoituksen:
+"The following SSH command responded with a non-zero exit status.
+Vagrant assumes that this means the command failed!
+
+/sbin/ifdown eth1 2> /dev/null
+
+Stdout from the command:
+
+
+
+Stderr from the command:
+
+mesg: ttyname failed: Inappropriate ioctl for device"

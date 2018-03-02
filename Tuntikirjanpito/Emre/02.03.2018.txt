@@ -1,0 +1,5 @@
+Blogin muokkausta: Muokkasin "Palvelimen konfigurointi" postauksen edellisesltä kerralta sillä kohtasimme ongelmia ssh yhteydenotossa.
+Tästä syystä päätimme asentaa uudestaan palvelimen ja asennus onnistui ilman minkäälaista ongelmaa. Kiitokset VPN labraluokkaan(Haaga-Helia) / Verticom infra projekti? Ilari, Lassi, Nikolas
+ryhmään heidän avusta asennuksen aikana.
+
+Postauksessa korjasin kirjoitusvirheitä, sekä poistin vanhat vaiheet joita ei tullut tällä kertaan vastaan. Asennus ohjetta on paljon helpompi seu

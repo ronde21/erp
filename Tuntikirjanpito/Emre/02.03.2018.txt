@@ -1,5 +1,17 @@
-Blogin muokkausta: Muokkasin "Palvelimen konfigurointi" postauksen edellisesltä kerralta sillä kohtasimme ongelmia ssh yhteydenotossa.
-Tästä syystä päätimme asentaa uudestaan palvelimen ja asennus onnistui ilman minkäälaista ongelmaa. Kiitokset VPN labraluokkaan(Haaga-Helia) / Verticom infra projekti? Ilari, Lassi, Nikolas
-ryhmään heidän avusta asennuksen aikana.
+Blogin muokkausta: Muokkasimme "Palvelimen konfigurointi" postauksen edellisesltä kerralta sillä kohtasimme ongelmia ssh yhteydenotossa.
+Tästä syystä päätimme asentaa uudestaan palvelimen ja asennus onnistui ilman minkäälaista ongelmaa. Kiitokset VPN labraluokkaan(Haaga-Helia) / Verticom infra projekti? Ilari, Lassi, Nikolas ryhmään he auttoivat meitä asennuksen aikana.
 
-Postauksessa korjasin kirjoitusvirheitä, sekä poistin vanhat vaiheet joita ei tullut tällä kertaan vastaan. Asennus ohjetta on paljon helpompi seu
+Postauksessa korjattiin kirjoitusvirheitä, sekä poistettiin vanhat vaiheet joita ei tullut tällä kertaan vastaan. Asennus ohjetta on paljon helpompi seurata tämän päivityksen jälkeen.
+
+Lopputulos:
+https://opensourceerp2018.wordpress.com/2018/02/16/palvelimen-konfigurointi/
+
+
+Moduuleihin tutustuminen: Tutustuimme Ronin kanssa CRM ja sen mukana tuleviin moduuleihin
+
+Lopputulos:
+https://opensourceerp2018.wordpress.com/2018/03/02/odoo-moduulit/
+
+Tietokannan muokkaus: Lisäsimme Odoolle asiakkaita, tilaisuuksia sekä tuotteita testauksiin varten. Tutustuin hieman myös postgresql tietokantaan.
+
+Kotisivun luonti: Loimme Konstan kanssa kotiivut meidän projektia varten hyödyntäen odoon nettisivu editoria.

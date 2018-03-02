@@ -12,3 +12,12 @@ Tässä vielä muutamia kysymyksiä joihin toivomme saavamme vastauksia.
 ⦁	Mitkä olisivat ensimmäiset asiat/moduulit joita StarUp- yritys voisi toimintansa tukena tarvita?
 
 Tutustuimme myös tarkemmin Odoon varastonhallintaan, nettikauppaan ja  myynnin hallinta moduuleihin. Loin testimielessä tuotteen jota myymme, tein ostotilauksen ja laskun. 
+
+Blogin muokkausta: Muokkasimme "Palvelimen konfigurointi" postauksen edellisesltä kerralta sillä kohtasimme ongelmia ssh yhteydenotossa.
+Tästä syystä päätimme asentaa uudestaan palvelimen ja asennus onnistui ilman minkäälaista ongelmaa. Kiitokset VPN labraluokkaan(Haaga-Helia) / Verticom infra projekti? Ilari, Lassi, Nikolas ryhmään he auttoivat meitä asennuksen aikana.
+
+Postauksessa korjattiin kirjoitusvirheitä, sekä poistettiin vanhat vaiheet joita ei tullut tällä kertaan vastaan. Asennus ohjetta on paljon helpompi seurata tämän päivityksen jälkeen.
+
+Lopputulos:
+https://opensourceerp2018.wordpress.com/2018/02/16/palvelimen-konfigurointi/
+

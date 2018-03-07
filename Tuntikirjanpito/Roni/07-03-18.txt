@@ -1,32 +1,32 @@
-Asensin virtuaalikoneeseen ERPNext-toiminnanohjausj‰rjestelm‰n skriptin avulla testi- ja vertailumieless‰.
-Virtuaalikone j‰‰tyi muutaman kerran asennuksen aikana liian v‰h‰isen RAM-muistin takia. Lis‰‰m‰ll‰ lis‰‰ RAM-muistia asennus onnistui.
+Asensin virtuaalikoneeseen ERPNext-toiminnanohjausj√§rjestelm√§n skriptin avulla testi- ja vertailumieless√§.
+Virtuaalikone j√§√§tyi muutaman kerran asennuksen aikana liian v√§h√§isen RAM-muistin takia. Lis√§√§m√§ll√§ lis√§√§ RAM-muistia asennus onnistui.
 
 Komennot:
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install wget python # Jos ei, jo valmiiksi ole.
-sudo su # Pit‰‰ ajaa roottina
+sudo su # Pit√§√§ ajaa roottina
 cd
 wget https://raw.githubusercontent.com/frappe/bench/master/playbooks/install.py
 python install.py --production --user frappe
 
-Skriptin ajon aikana piti antaa MariaDB root salasana sek‰ Frappe Administrator salasana.
+Skriptin ajon aikana piti antaa MariaDB root salasana sek√§ Frappe Administrator salasana.
 
-Onnistuneen skriptin ajon j‰lkeen ilmestyi teksti:
+Onnistuneen skriptin ajon j√§lkeen ilmestyi teksti:
 Frappe/ERPNext has been successfully installed!
-Kirjoittamalla osoiteriville localhost p‰‰si kirjautumissivulle, jonne kirjauduttiin aikasemmin annetulla Administator k‰yt‰j‰ll‰.
-Kirjautumisen j‰lkeen piti syˆtt‰‰ mm. kieli, uuden k‰ytt‰j‰n tiedot ja asiakkaan tiedot.
+Kirjoittamalla osoiteriville localhost p√§√§si kirjautumissivulle, jonne kirjauduttiin aikasemmin annetulla Administator k√§yt√§j√§ll√§.
+Kirjautumisen j√§lkeen piti sy√∂tt√§√§ mm. kieli, uuden k√§ytt√§j√§n tiedot ja asiakkaan tiedot.
 
-Skripti asensi Ansible playbookin avulla seuraavat palvelut, tyˆkalut ja moduulit:
-ñ MariaDB
-ñ Nginx
-ñ Nodejs
-ñ Redis
-ñ Supervisor
-ñ Wkhtmltopdf
-ñ Bench, which is a command line tool which will help you to install new applications, manage sites and update Frappe and ERPNext.
-ñ Create a new bench and a new site on the bench.
+Skripti asensi Ansible playbookin avulla seuraavat palvelut, ty√∂kalut ja moduulit:
+‚Äì MariaDB
+‚Äì Nginx
+‚Äì Nodejs
+‚Äì Redis
+‚Äì Supervisor
+‚Äì Wkhtmltopdf
+‚Äì Bench, which is a command line tool which will help you to install new applications, manage sites and update Frappe and ERPNext.
+‚Äì Create a new bench and a new site on the bench.
 
-Nopealla tutkimisella k‰yttˆliittym‰ on samantyyppinen kuin Odoon. (https://raw.githubusercontent.com/ronde21/erp/master/Tuntikirjanpito/Roni/07-03-18_ERPNext.JPG)
-Valikoima on kuitenkin suppeampi Odooseen verrattuna mm. kotisivujen tekemiseen tarkoitettu tyˆkalu puuttuu,
-joka ei nyt varsinaiseti ole ERP-ominaisuus. 
+Nopealla tutkimisella k√§ytt√∂liittym√§ on samantyyppinen kuin Odoon. (https://raw.githubusercontent.com/ronde21/erp/master/Tuntikirjanpito/Roni/07-03-18_ERPNext.JPG)
+Valikoima on kuitenkin suppeampi Odooseen verrattuna mm. kotisivujen tekemiseen tarkoitettu ty√∂kalu puuttuu,
+joka ei nyt varsinaiseti ole ERP-ominaisuus.

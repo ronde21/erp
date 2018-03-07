@@ -1,0 +1,32 @@
+Asensin virtuaalikoneeseen ERPNext-toiminnanohjausjärjestelmän skriptin avulla testi- ja vertailumielessä.
+Virtuaalikone jäätyi muutaman kerran asennuksen aikana liian vähäisen RAM-muistin takia. Lisäämällä lisää RAM-muistia asennus onnistui.
+
+Komennot:
+sudo apt-get update
+sudo apt-get -y upgrade
+sudo apt-get install wget python # Jos ei, jo valmiiksi ole.
+sudo su # Pitää ajaa roottina
+cd
+wget https://raw.githubusercontent.com/frappe/bench/master/playbooks/install.py
+python install.py --production --user frappe
+
+Skriptin ajon aikana piti antaa MariaDB root salasana sekä Frappe Administrator salasana.
+
+Onnistuneen skriptin ajon jälkeen ilmestyi teksti:
+Frappe/ERPNext has been successfully installed!
+Kirjoittamalla osoiteriville localhost pääsi kirjautumissivulle, jonne kirjauduttiin aikasemmin annetulla Administator käytäjällä.
+Kirjautumisen jälkeen piti syöttää mm. kieli, uuden käyttäjän tiedot ja asiakkaan tiedot.
+
+Skripti asensi Ansible playbookin avulla seuraavat palvelut, työkalut ja moduulit:
+– MariaDB
+– Nginx
+– Nodejs
+– Redis
+– Supervisor
+– Wkhtmltopdf
+– Bench, which is a command line tool which will help you to install new applications, manage sites and update Frappe and ERPNext.
+– Create a new bench and a new site on the bench.
+
+Nopealla tutkimisella käyttöliittymä on samantyyppinen kuin Odoon. (https://raw.githubusercontent.com/ronde21/erp/master/Tuntikirjanpito/Roni/07-03-18_ERPNext.JPG)
+Valikoima on kuitenkin suppeampi Odooseen verrattuna mm. kotisivujen tekemiseen tarkoitettu työkalu puuttuu,
+joka ei nyt varsinaiseti ole ERP-ominaisuus. 

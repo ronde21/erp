@@ -1,0 +1,12 @@
+Oman moduulin kehitys:
+Kopioin suoraan live_chat moduuli kansion ja nimesin sen uudestaan "helloworld". Teoriassa tämän täytyisi toimia.
+Moduuli ei näkynyt Sovellus näkymässä vaikka odoota käynnistin uudelleen: sudo service odoo restart
+
+Katsoin opetus videon:
+https://www.youtube.com/watch?v=x1HWQqxgqHY 
+
+Luin seuraavat artikkelit:
+http://www.nevprobusinesssolutions.com/odoo-create-a-new-sample-module/ 
+
+http://www.erpish.com/odoo/step-by-step-tutorial-for-how-to-create-a-hello-world-application-for-odoo/ 
+

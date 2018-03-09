@@ -1,10 +1,15 @@
-- Odoo implmentaatio harjoitukset
-- Käyttäjille enemmän oikeuksia (onnistuu developer mode näkymällä)
-- Public ja portal oikeudet antavat anonyymeille oikeuden vierailla tietokantaa (?)
-- Pankki ja myyjä tiedot
-- Pythoniin tutustumista
-- Excel tiedostoja en saanut ladattua?
-- nyt ei tarvi porttia mainita :8069 (https://www.vultr.com/docs/installing-odoo-10-community-on-ubuntu-16-04). Pystyy yhdistää VDI:in kautta
+Tein Odoo implmentaatio harjoituksia
+
+Annoin käyttäjille (Roni ja Konsta) enemmän oikeuksia (onnistuu developer mode näkymällä)
+- Public ja portal oikeudet antavat anonyymeille oikeuden vierailla tietokantaa.
+
+Tutustuin pankki ja myyjä tietojen muokkausta ulkoisesti, eli käyttäen libre office ohjelmaa (Tiedostoja en saanut ladattua, syynä voi olla se että odoo vaatii aitoa Microsoft:in Excel ohjelmaa tai tiedostojen tallennus muoto ei ollut oikein).
+
+Pythoniin tutustumista.
+
+Nyt ei tarvi porttia mainita :8069 (https://www.vultr.com/docs/installing-odoo-10-community-on-ubuntu-16-04). Pystyy yhdistää VDI:in kautta
 
 Palvelimen puolella
 - /etc/odoo/odoo.conf tiedostoon tutustumista
+- /usr/lib/python3/dist-packages/odoo/modules kansioon tutustumista
+ 

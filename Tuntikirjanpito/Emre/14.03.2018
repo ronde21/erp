@@ -1,0 +1,25 @@
+Odoo varmuuskopioinnin automatisointia:
+-En saanut automtisoinnin toimimaan, latasin kahta eri moduulia: https://www.odoo.com/apps/modules/category/Administration/browse
+
+Moduulit ovat:
+https://www.odoo.com/apps/modules/11.0/auto_backup/
+
+ja
+
+https://www.odoo.com/apps/modules/11.0/automatic_backup_to_whatever/
+
+mutta molemmat antoi saman virheen eli:
+Exception: Module loading automatic_backup_to_whatever failed: file automatic_backup_to_whatever/security/ir.model.access.csv could not be processed:
+ No matching record found for external id 'model_automatic_backup_to_whatever_configuration' in field 'Object'
+Missing required value for the field 'Object' (model_id)
+
+Katoin käyttejien kommenteja niin joillakin oli myös tullut samanlainen virhe vastaan, tunnen itseäni villissä lännessä kun
+selailen näitä ilmaiseja moduuleja. Sillä arvostelu määrät ovat hyvin pienejä ja jotkut moduulit vaikuttavat hyvin amatööriselta.
+
+Täytyy tutkia tuota ongelmaa lisää, en pystynyt lataa tietokantaan excell tiedostoja josta olenkin maininnut aikasemmin. Mietin
+voisko siinäkin syy ola just tuo eli .csv tiedostoja ei pystytä prsosessoiman...
+
+katso ladatut moduulit ei toimi.jpeg
+
+- Sain näkymään mun moduulin! Tein viime kerralla helloworld nimisen moduulin ja sain sen näkymään tällä kertaa, piti vain
+aktivoida kehittäjien näkymä katso: Mun moduuli näkyy.jpeg

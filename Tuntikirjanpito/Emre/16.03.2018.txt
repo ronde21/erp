@@ -27,8 +27,7 @@ Ymmärtääkseni odoo-bin on kuin odoon oma "systemctl service status" mitä kä
 
 Mutta vastaavalainen tiedosto löytyi lopulta. Se sijaitsee /etc/init.d/ kansiossa nimellä "odoo"
 
-katso odoo-bin.jpeg
-
+katso odoo-bin.png
 Huomasin että num2words python kirjasto ei ollut asennettuna asensin sen komennolla:
 
 $pip install num2words
@@ -45,12 +44,15 @@ https://www.odoo.com/fr_FR/forum/aide-1/question/error-when-install-module-12817
 
 Kuen aikaisemminkin olin mainninnut muutkin käyttäjät ovat kohdanneet kyseisin virheilmoituksen.
 https://github.com/Yenthe666/auto_backup/issues
-
-sudo easy_install pysftp
-
 https://github.com/Yenthe666/auto_backup/issues/92
 
+Kokeilun simosuu:n tekemää korjausta, ei toiminut.
 https://github.com/Yenthe666/auto_backup/pull/93/commits/c1db1a9d8fef1458e3c62921eda57d9a632a6efc
+
+
+Kokeilin NeatNerdPrime:n vinkkiä ei toimi vieläkään.
+https://github.com/Yenthe666/auto_backup/issues/65
+
 
 
 

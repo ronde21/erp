@@ -1,0 +1,63 @@
+09:00 - 12:00
+
+- En saanut vieläkään asennettua moduuleja.
+Odoon sovellus kaupasta yritin asentaa seuraavat moduulit käyttäen windowsia ja "Import module" toimintoa.
+(Yli 25 Mt moduulien tuominen ei onnistu)
+Moduulit joita yritin asentaa ovat:
+
+bi_professional_reports_templates-11.0.1.0
+
+voip_sip_webrtc-11.0.1.0
+
+website_support-11.0.1.0.6
+
+Toi BI professional reports templates moduuli oli aika erikoinen sillä sen tuominen odoon johtaa yhteyden katkaisemisen.
+
+
+Aloin kattoo seuraavan videon:
+https://www.youtube.com/watch?v=ccmZUCc8ST4
+
+Yritin löytää odoo-bin tiedoston palvelimessa, mutta sen löytäminen oli hankalaa sillä suoraa vastausta ei löytynyt googlettamallla.
+Jotkut lähteet väittävät että kyseistä tiedpstoa on poistettu 11 versiosta.
+
+Jopa odoon omat dokumentaatiot viittaavat tähän tiedostton:
+https://www.odoo.com/documentation/11.0/howtos/backend.html
+
+Ymmärtääkseni odoo-bin on kuin odoon oma "systemctl service status" mitä käytetään ssh:ssa.
+
+Mutta vastaavalainen tiedosto löytyi lopulta. Se sijaitsee /etc/init.d/ kansiossa nimellä "odoo"
+
+katso odoo-bin.jpeg
+
+Huomasin että num2words python kirjasto ei ollut asennettuna asensin sen komennolla:
+
+$pip install num2words
+
+Ei se kuitenkaan korjannut mitään, virhe ilmoitus tulee edelleen...
+
+Rupesin etsimään keskiviikkona kohtaamani virhe ilmoitusta:
+Missing required value for the field 'Object' (model_id)
+
+Tämä virhe ilmoitus tuli kuin yritin asentaa auto_backup moduulin.
+
+Löysin keskustelupalstan odoon sivuilta johon moduulin tekijä itse on lähettänyt vastauksen:
+https://www.odoo.com/fr_FR/forum/aide-1/question/error-when-install-module-128173
+
+Kuen aikaisemminkin olin mainninnut muutkin käyttäjät ovat kohdanneet kyseisin virheilmoituksen.
+https://github.com/Yenthe666/auto_backup/issues
+
+sudo easy_install pysftp
+
+https://github.com/Yenthe666/auto_backup/issues/92
+
+https://github.com/Yenthe666/auto_backup/pull/93/commits/c1db1a9d8fef1458e3c62921eda57d9a632a6efc
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+Viime kerralla kuin yritettiin myydä lakupatukoita niin odoo antoi virheilmoituksen ja ostoproseessi ei mennyt eteenpäin, 
+asensin WKHTMLTOPDF uudestaan sillä tällä käyttäjällä oli sama ongelma https://www.odoo.com/fr_FR/forum/aide-1/question/openerp-8-dev-internal-server-error-47616 
+
+Asennuksen jälkeen ei näkynyt mitään muutosta, päätin käynnistää palvelimen uudestaa jos se korjaisi ongelman, mutta uudelleen käynnistyksessä
+palvelin jumittui [ ] Unmounting /run/user/1000 prosessin.
+
+Siinä tilanteessa mikään muu ei auttanut kuin uudelleen käynnistys., jonkna jälkeen odoon visuaaliset elementit hävisivät.
+
+04.04.2018
+
+Aloitin tutkimalla palvelimen loki tiedostoja, käytin teron ohjeita:
+http://terokarvinen.com/2018/apache-user-homepages-automatically-salt-package-file-service-example
+
+En tiedä mikä aiheutti palvelimen jumittumisen, mutta sen jälkeen palvelin sammui ja käynistyi uudelleen normaalisesti.
+Odoon bugi oli aika omituinen sillä kuin tarkistin odoo-server:in tilannetta komennolla:
+
+systemctl status odoo-server
+
+niin odoo-server näkyi sammuneena enkä sitä saannut uudelleen käyntiin millään, joten päätin asentaa uudestaa palvelimen seuraavana päivänä.

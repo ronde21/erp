@@ -1,0 +1,15 @@
+Palvelin toimii jälleen kerran ihan normaalisesti! :)
+
+Lisäsin uudet käyttäjät roni, konsta, emre opettajani Tero Karvisen pyynnöstä sekä lukitsin root tunnuksen.
+
+Muokkasin blogissa serverin konfigurointia sillä huomasin siinä virheitä, sekä mainnitsin nginx:in asennuksessa että 
+parametrit tulevat "location /" kohtaan, sillä muuten se portin :8069 poistaminen ei onnistu, lisäsin myös ohjeet miten wkhtmltopdf 
+asennetaan.
+
+Nyt kuin tarvittava pdf ominaisuus oli lisätty niin voin liittää excell tiedostoja tietokantaan!
+Ja siinä onnistuinkin kerron tästä myöhemmin blogissa.
+
+Nyt asiakkaat voivat tehdä tunnuksia verkkokauppaan ja seuraa heidän tilauksia.
+Integroin googlen kalenteri ja docs ominaisuudet odoohon, eli nyt voi käyttää omaa google kalenteria tai käyttää google docs:ia
+microsoft excelin sijaan.
+

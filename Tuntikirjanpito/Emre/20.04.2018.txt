@@ -1,0 +1,13 @@
+- Tilattiin DigitalOceanin kautta palvelimen, palvelin sijaitsee saksassa ja siinä on 25 Gt SSD levy sekä 1Tt siirto nopeus ja Ubuntu 16.04 LTS server käyttöjärjestelmänä.
+- Palvelimeen asennettiin Odoo 11 community ja käytettiin meidän vanhan palvelimen tietokantaa.
+- Odoohon lisättiin Paypal maksu ominaisuus ja tehtiin yksi onnistunut maksu.
+- Otettiin käyttöön ilmainen domain nimi "moniala.tk"
+Domain nimi löytyi:
+http://www.dot.tk/en/index.html?lang=en
+ja otettiin käyttöön sivustossa:
+http://www.freenom.world/en/index.html?lang=en
+
+- Palvelimeen teimme perus tietoturva säädöksiä kuten:
+Yksityinen SSH avain
+Nginx
+Palomuuri
